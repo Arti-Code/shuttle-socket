@@ -1,0 +1,19 @@
+[package]
+name = "artek-socket"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+shuttle-runtime = "0.16.0"
+axum = "0.6.18"
+shuttle-axum = "0.18.0"
+tokio = "1.28.1"
+chrono = "0.4.26"
+futures = "0.3.28"
+hyper = "0.14.26"
+hyper-tls = "0.5.0"
+serde = "1.0.163"
+tower-http = "0.4.0"
