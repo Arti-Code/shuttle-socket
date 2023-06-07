@@ -9,7 +9,7 @@ publish = false
 [dependencies]
 shuttle-runtime = "0.16.0"
 axum = "0.6.18"
-shuttle-axum = "0.18.0"
+#shuttle-axum = "0.18.0"
 tokio = "1.28.1"
 chrono = "0.4.26"
 futures = "0.3.28"
